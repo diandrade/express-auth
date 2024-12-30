@@ -11,16 +11,19 @@ const app = express();
 const port = 3000;
 const saltRounds = 10;
 const db = new pg.Client({
-  user: "diandrade",
-  host: "localhost",
-  database: "secrets",
-  password: "$89398357",
-  port: 5432,
+  user: process.env.PG_USER,
+  host: process.env.PG_HOST,
+  database: process.env.PG_DATABASE,
+  password: process.env.PG_PASSWORD,
+  port: process.env.PG_PORT,
 });
 
 //MIDDLEWARE AND DB CONNECT
 env.config();
 db.connect();
+
+app.use(bodyParser.urlencoded({ extended: true }));
+app.use(express.static("public"));
 app.use(
   session({
     secret: process.env.SESSION_SECRET,
@@ -31,8 +34,6 @@ app.use(
     },
   })
 );
-app.use(bodyParser.urlencoded({ extended: true }));
-app.use(express.static("public"));
 app.use(passport.initialize());
 app.use(passport.session());
 
