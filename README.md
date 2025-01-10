@@ -1,7 +1,7 @@
 ![App Screenshot](assets/Screenshot%20from%202025-01-10%2008-28-41.png)
-![App Screenshot](assets/screenshot.png)
-![App Screenshot](assets/screenshot.png)
-![App Screenshot](assets/screenshot.png)
+![App Screenshot 1](assets/Screenshot%20from%202025-01-10%2008-28-52.png)
+![App Screenshot 2](assets/Screenshot%20from%202025-01-10%2008-29-12.png)
+![App Screenshot 3](assets/Screenshot%20from%202025-01-10%2008-29-19.png)
 
 
 # 🔐 express-auth-angela-yu
