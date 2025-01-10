@@ -1,7 +1,11 @@
-![App Screenshot](assets/Screenshot%20from%202025-01-10%2008-28-41.png)
-![App Screenshot 1](assets/Screenshot%20from%202025-01-10%2008-28-52.png)
-![App Screenshot 2](assets/Screenshot%20from%202025-01-10%2008-29-12.png)
-![App Screenshot 3](assets/Screenshot%20from%202025-01-10%2008-29-19.png)
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/Screenshot%20from%202025-01-10%2008-28-52.png" alt="App Screenshot 1" width="45%" />
+  <img src="assets/Screenshot%20from%202025-01-10%2008-29-12.png" alt="App Screenshot 2" width="45%" />
+</div>
+<div style="display: flex; justify-content: space-between;">
+  <img src="assets/Screenshot%20from%202025-01-10%2008-29-19.png" alt="App Screenshot 3" width="45%" />
+  <img src="assets/Screenshot%20from%202025-01-10%2008-28-52.png" alt="App Screenshot 4" width="45%" />
+</div>
 
 
 # 🔐 express-auth-angela-yu
