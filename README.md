@@ -1,6 +1,6 @@
 
 
-# 🔐 secret-vault-angela-yu
+# 🔐 express-auth-angela-yu
 
 A secure secrets-sharing web application built during the Complete Web Development Bootcamp with Dr. Angela Yu. The app utilizes Node.js, Express, and PostgreSQL, and integrates user authentication with local login and Google OAuth 2.0.
 
